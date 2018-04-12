@@ -1,0 +1,358 @@
+body{
+font-family:'Poppins', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+font-family:'Poppins', sans-serif !important;
+}
+.fade {
+    opacity: 1;
+    transition: opacity .15s linear;
+}
+
+a{
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.tab-content{
+    float: left;
+}
+
+.tab-pane ul li{
+    margin:20px;
+}
+
+.tab-pane ul li h6{
+    font-size:15px;
+}
+
+.tab-image img{
+    height: 450px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+
+.service-box .fa {
+    font-size: 5em !important;
+    color: #000066!important;
+    margin-bottom: 20px;
+}
+
+.service-div:hover{
+    background-color: #eee;
+    box-shadow: 3px 5px 8px 3px #efefef;
+    transition: 0.5s linear;
+}
+
+.learn-more{
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+#services{
+    padding-bottom: 10px !important;
+}
+
+.learn-more:hover{
+    background-color: orangered;
+    transition: 0.5s linear;
+}
+
+.nav-stacked{
+    float: left;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.49);
+    padding: 0px;
+    border-radius: 5px;
+    height: 70vh;
+    border-right: 1px solid #eee;
+}
+
+.head-overlay{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 660px;
+    width:100%
+}
+
+.service-box{
+    text-align: left;
+    padding: 30px 45px;
+}
+
+h6 {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.p-top{
+    margin-top: 120px;
+}
+
+.nav-stacked li{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.nav-stacked li.active, .nav-stacked li:hover{
+    background-color: #eee;
+}
+
+.nav-stacked li:hover a{
+    color:#a59b9b;
+}
+
+.nav-stacked li a{
+    color: #777;
+    font-size:13px;
+}
+
+
+.nav-stacked li.active a{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.nav-stacked li a:hover{
+    font-weight: bold;
+}
+
+.nav-item a{
+    color: #777 !important;
+}
+
+.nav-item a:hover{
+    color: #333 !important;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.product-box{
+    border: 1px solid #e8e7e7 !important;
+    height: 200px !important;
+    border-radius: 5px !important;
+    float: left;
+    width: 47%;
+    margin: 0px 10px;
+    text-align: center;
+    box-shadow: 2px 2px 11px 2px #eee;
+    background-color: #fff;
+}
+
+.buy{
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    border: 2px solid #f05f40;
+    margin-top: 5px;
+}
+
+.company-title{
+    padding: 15px;
+    padding-left: 35px;
+    color: #777;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.image .gkb{
+    height: 70px;
+    margin-top: 40px;
+}
+
+.image img{
+    height: 40px;
+    margin-top: 70px;
+    widows: 25px auto;
+    text-align: center;
+}
+
+#product{
+    background-color: #fbfbfb;
+}
+
+.navbar-brand img{
+    width: 170px;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 15px !important;
+    padding: 0px 20px !important;
+    background-color: transparent !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #f05f40 !important;
+}
+
+#mainNav{
+    padding: 10px 100px;
+}
+
+
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #242525 !important;
+    padding-bottom: 50px !important;
+}
+#footer h5{
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.social{
+    width:177px;
+}
+
+.email-field{
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+.email-button{
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    border: 2px solid #eee;
+    padding: 10px;
+    margin-left: 10px;
+    color: #fff;
+    cursor:pointer;
+}
+
+
+.email-button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.35s linear;
+}
+
+.rights{
+    padding-top: 50px;
+}
+
+.service-div{
+    padding: 1px !important;
+    height: 250px;
+    background-color: #00086d08;
+    border-right: 3px solid #FFF;
+    border-bottom: 3px solid #fff;
+}
+
+
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
